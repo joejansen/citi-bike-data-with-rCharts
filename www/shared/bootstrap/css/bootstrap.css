@@ -1,3 +1,6 @@
+#legend{
+	text-align:center;
+}
 div.highcharts-container tspan{
 	font-size:16px !important;
 /*	font-weight:bold !important;*/
@@ -145,7 +148,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 background: url(greyzz_@2X.png);
-	  font-family: 'Lato', sans-serif !important; 
+	  font-family: 'Arvo', sans-serif !important; 
 }
 
 a:focus {
@@ -300,9 +303,9 @@ textarea {
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif !important; 
+  font-family: 'Arvo', sans-serif !important; 
 	font-weight:300;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   color: #000;
   background: url(greyzz_@2X.png);
@@ -811,14 +814,16 @@ a.text-success:focus {
   text-align: center;
 }
 
-h1,
+h1{
+	font-family: 'Grand Hotel', sans-serif;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family:  'Lato', sans-serif !important; 
+  font-family:  'Arvo', sans-serif !important; 
 	
   line-height: 20px;
   color: #000;
