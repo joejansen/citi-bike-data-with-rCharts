@@ -13,20 +13,17 @@ Most of the CSS is in shared/bootsrap/css/bootstrap.css
 - R: Shiny, shinyapps, rCharts
 - HTML/CSS/JS: jquery, shiny.js, bootstrap, highcharts.js
 
-
 ## issues
 
-- tooltip overlay formatting: unable to pull this.point.y.name or other attribute for y-axis name, also unable to pull other fields from data, like te date of the point.
-
+- tooltip overlay formatting: unable to pull this.point.y.name or other attribute for y-axis name, also unable to pull other fields from data, like the date of the point
 
 ## data
 
 -  Citi Bike data http://citibikenyc.com/system-data
 - weather http://www.wunderground.com/history/
 
-
 ## credits
 
 - RStudio for shiny and shinyapps!
-- Ramnath Vaidyanathan, online resources for rCharts and highcharts on Shiny
+- Ramnath Vaidyanathan, fantastic online resources for rCharts and highcharts on Shiny
 
