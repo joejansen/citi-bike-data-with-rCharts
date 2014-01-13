@@ -42,13 +42,13 @@
 <div id="introText">
   
   <h3>May 27th, through December 22nd 2013.</h3>
-  <p>This is a scatter plot of Citi Bike usage for every day from May 27th, through December 22nd 2013. Every point represents one day, and the x-axis is set to total miles travelled on that day. You can change the y-axis and how the points are classified with the dropdown boxes. More details on this <a href="http://www.joejansen.co/blog/2013/12/29/what-factors-influence-citi-bike-usage" title="What factors influence Citi Bike usage? — Joe Jansen">analysis in this post</a>.</p>
+  <p>This is a scatter plot of Citi Bike usage for every day from May 27th, through December 22nd 2013. Every point represents one day, and the y-axis is set to total miles travelled on that day. You can change the x-axis and how the points are classified with the dropdown boxes. More details on this <a href="http://www.joejansen.co/blog/2013/12/29/what-factors-influence-citi-bike-usage" title="What factors influence Citi Bike usage? — Joe Jansen">analysis in this post</a>.</p>
 </div>
 
 
   <div>
 	  <div class="fLeft">
-	  <label class="control-label" for="variable">Choose a variable for the y-axis:</label>
+	  <label class="control-label" for="variable">Choose a variable for the x-axis:</label>
 	          <select id="variable">
 	            <option value="meantemp" selected="selected">Mean temperature (fahrenheit)</option>
 	            <option value="maxtemp">Max temperature (fahrenheit)</option>
@@ -70,6 +70,10 @@
    	            <option value="day_of_week">Day of week</option>
    	          </select>
 	</div>
+	<div class="fLeft blueBox">
+		<p id="corText" class="shiny-text-output"></p>
+		<h3 id="corNum" class="shiny-text-output"></h3>
+	</div>
   </div>
  <div class="clearfix"></div>
 <div id="mainPlot" class="shiny-html-output rChart highcharts shiny-bound-output"></div>
@@ -81,6 +85,7 @@
 <br>
 <h3>Many thanks to:</h3>
 <ul>
+	<li><a href="http://www.salthillstatistics.com/our_team.html" target="blank">Alan Salzberg</a> for for guidance with R and statistical methods.</li>
 	<li><a href="http://www.rstudio.com/" target="blank">RStudio</a> for Shiny and ShinyApps.</li>
 	<li><a href="https://github.com/ramnathv" target="blank">Ramnath Vaidyanathan</a>, online resources for <a href="http://rcharts.io/" target="blank">rCharts</a> and <a href="http://www.highcharts.com/" title="Highcharts - Interactive JavaScript charts for your webpage" target="blank">highcharts</a> on Shiny.</li>
 	<li>Citi Bike for providing <a href="http://citibikenyc.com/system-datasystem" target="blank"> system data</a>.</li>
