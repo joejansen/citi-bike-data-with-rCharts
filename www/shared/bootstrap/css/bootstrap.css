@@ -1,3 +1,7 @@
+#introText{
+padding:25px;
+background-color: rgba(139, 188, 33, 0.5);	
+}
 #legend{
 	text-align:center;
 }
@@ -16,14 +20,6 @@ g.highcharts-tooltip rect{
 .nvtooltip h4{
 	text-align:center;
 	margin: 0 5px 0 5px;
-}
-
-#sectorChart{
-	height:500px;
-}
-#sandboxSelect{
-	margin:10px 0 10px 30px;
-	text-align:center;
 }
 .ticker{
 	width:100%;
@@ -147,7 +143,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-background: url(greyzz_@2X.png);
+background-color: #000;
 	  font-family: 'Arvo', sans-serif !important; 
 }
 
@@ -308,11 +304,11 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #000;
-  background: url(greyzz_@2X.png);
+  background: url(clean_textile_@2X.png);
 }
 
 a {
-  color: #000;
+  color: #2f7ed8;
   text-decoration: none;
 }
 
@@ -815,20 +811,19 @@ a.text-success:focus {
 }
 
 h1{
-	font-family: 'Grand Hotel', sans-serif;
+	font-family: 'Allan', sans-serif;
 }
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 15px 0 15px 0;
   font-family:  'Arvo', sans-serif !important; 
 	
   line-height: 20px;
   color: #000;
   text-rendering: optimizelegibility;
-  text-shadow: 0 1px 0 white;
 }
 
 h1 small,
@@ -843,9 +838,8 @@ h6 small {
 }
 
 h1,
-h2,
-h3 {
-  line-height: 40px; 
+h2{
+	margin:10px 0 30px 0;
 }
 
 h1 {
@@ -857,7 +851,7 @@ h2 {
 }
 
 h3 {
-  font-size: 28px; font-weight:500; letter-spacing: -.5px; margin-top:40px;
+  font-size: 28px; font-weight:500;  margin: 0 0 15px 0;
 }
 
 h4 {
